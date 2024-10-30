@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: auto;
+    width: auto;
+    background-color: black;
+    margin: 0;
+}
+
+.Logo{
+margin-top: 10px;
+width: 60px;
+height: 60px;
+margin-left: 10px;
+
+
+}
+
+#Lista1{
+    list-style: none;
+    display:flex;
+    color: white;
+    padding: 13px;
+    width: 90vw;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Lista1>li{
+    width: 20vw;
+    text-align: center;
+    
+}
+#eae{
+    display: flex;
+}
+.Insta{
+    width: 60px;
+    height: 30px;
+}
+.Linkedin{
+    width: 60px;
+    height: 30px;
+    
+
+}
+.Git{
+  width: 60px;
+  height: 30px;
+
+}
+#Office{
+   
+    width: 1950px;
+    height: 700px;
+}
+
+#Lista2{
+
+    list-style: none;
+    display:flex;
+    color: white;
+    padding: 13px;
+    width: 90vw;
+    text-transform: uppercase;
+    text-size-adjust: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Parte_corte{
+
+    width: auto;
+    height: 5000px;
+    color: white;
+    background-color: #B2C2BF;
+    
+} 
+
+.faixas{
+
+    background-color: #435B56;
+    height: 15px;
+}
+
+#Office {
+    background-image: url(domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1903px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textP{
+   color: rgb(0, 0, 0);
+   font-size: 40px;
+
+}
+#Numeral1{
+    text-align: left;
+   color: #94B0AB;
+   font-size: 150px;
+   padding-top: 100px;
+   margin-left: 400px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+#Numeral1::after{
+    content: "INOVAÇÃO";
+  font-size: 45px;
+  color: black;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+#Numeral1::after::before{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100px;
+}
+#PontosSite{
+
+    display: flex;
+    justify-content: flex-start
+
+}
+#Numeral2{
+    display: flex;
+   color: #94B0AB;
+   font-size: 150px;
+   padding-top: 100px;
+   padding-left: 360px;
+   font-family: K2A;
+   position: relative;
+}
+#Numeral2::after{
+    content: "TREINAMENTO";
+  font-size: 45px;
+  color: black;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+#Numeral3{
+    display: flex;
+   color: #94B0AB;
+   font-size: 150px;
+   padding-top: 100px;
+   padding-left: 300px;
+   font-family: K2A;
+   position: relative;
+}
+#Numeral3::after{
+    content: "PERFEIÇÃO";
+  font-size: 45px;
+  color: black;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+#text1{
+    padding-top: 260px;
+    color: black;
+    
+}
+#text1::after{
+    color: green;
+    height: 200px;
+    width: 200px;
+
+}
+.Bolinha{
+
+width: 5%;
+position: absolute;
+height: 20px;
+top: 95%;
+left: 80%;
+background-color: #81C080;
+border-radius: 100%;
+
+}
+#texto1B{
+padding-left: 25px;
+padding-bottom: 40px;
+width: 300px;
+height: 30px;
+font-size: 20px;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+#texto2B{
+    padding-left: 25px;
+    padding-bottom: 40px;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    }
+    #texto3B{
+        padding-left: 25px;
+        padding-bottom: 40px;
+        width: 350px;
+        height: 30px;
+        font-size: 20px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        
+    }
+
+#Projetos{
+display: flex;
+align-items: center;
+text-align: left;
+width: 400px;
+height: 50px;
+background-color: black;
+margin-top: 400px;
+margin-left: 25px;
+font-size: 35px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
